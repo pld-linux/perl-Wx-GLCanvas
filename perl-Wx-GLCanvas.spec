@@ -12,7 +12,7 @@ Summary:	Wx::GLCanvas - interface to wxWidgets' OpenGL canvas
 Summary(pl.UTF-8):	Wx::GLCanvas - interfejs do "płótna" OpenGL biblioteki wxWidgets
 Name:		perl-Wx-GLCanvas
 Version:	0.09
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -21,6 +21,7 @@ Source0:	http://www.cpan.org/modules/by-module/Wx/%{pdir}-%{pnam}-%{version}.tar
 URL:		http://search.cpan.org/dist/Wx-GLCanvas/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	perl-Module-Pluggable
 BuildRequires:	perl(Wx::build::MakeMaker) >= 0.16
 BuildRequires:	perl-Wx-devel >= 0.57
 BuildRequires:	%{wxpkg}-devel
