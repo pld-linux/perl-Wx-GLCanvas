@@ -7,7 +7,6 @@
 %define		wxpkg	wxGTK%{?with_gtk3:3}%{!?with_gtk3:2}%{?with_unicode:-unicode}
 %define		pdir	Wx
 %define		pnam	GLCanvas
-%include	/usr/lib/rpm/macros.perl
 Summary:	Wx::GLCanvas - interface to wxWidgets' OpenGL canvas
 Summary(pl.UTF-8):	Wx::GLCanvas - interfejs do "płótna" OpenGL biblioteki wxWidgets
 Name:		perl-Wx-GLCanvas
