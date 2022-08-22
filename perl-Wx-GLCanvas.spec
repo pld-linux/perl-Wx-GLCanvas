@@ -11,7 +11,7 @@ Summary:	Wx::GLCanvas - interface to wxWidgets' OpenGL canvas
 Summary(pl.UTF-8):	Wx::GLCanvas - interfejs do "płótna" OpenGL biblioteki wxWidgets
 Name:		perl-Wx-GLCanvas
 Version:	0.09
-Release:	10
+Release:	11
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
