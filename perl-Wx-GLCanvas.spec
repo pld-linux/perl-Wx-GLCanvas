@@ -1,7 +1,7 @@
 #
 # Conditional build:
 %bcond_without	unicode	# ANSI instead of Unicode version of wxGTK
-%bcond_with	gtk3	# wxGTK3 instead of wxGTK2
+%bcond_without	gtk3	# wxGTK3 instead of wxGTK2
 %bcond_with	tests	# "make test" (requires $DISPLAY)
 #
 %define		wxpkg	wxGTK%{?with_gtk3:3}%{!?with_gtk3:2}%{?with_unicode:-unicode}
@@ -11,7 +11,7 @@ Summary:	Wx::GLCanvas - interface to wxWidgets' OpenGL canvas
 Summary(pl.UTF-8):	Wx::GLCanvas - interfejs do "płótna" OpenGL biblioteki wxWidgets
 Name:		perl-Wx-GLCanvas
 Version:	0.09
-Release:	12
+Release:	13
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
